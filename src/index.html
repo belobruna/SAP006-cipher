@@ -2,12 +2,21 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Caesar Cipher</title>
+  <title>CryptoMessage</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div id="root">
-    <h1>Olá, mundo!</h1>
+    <h1> Crypto Message </h1>
+    <p id="description"> Que tal escrever uma mensagem criptografada 
+      para os seus amigos? <br> A gente te ajuda! Basta escolher uma chave 
+        (número de 1 a 25), que a gente criptografa a mensagem para você! 
+    </p>
+     <input id="text" type="text"> <br>
+     <input id="offset" type="number"> 
+
+     <button id=bt-crypt> </button>
+     <button id=bt-decrypt> </button>
   </div>
   <script src="index.js" type="module"></script>
 </body>

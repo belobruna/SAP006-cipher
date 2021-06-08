@@ -1,3 +1,80 @@
+body { 
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+}
+
 h1 {
-    color: red;
+    color: #874b2d;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 75px;
+    margin: 10%;
+    text-align: center;
+    align-items:center;
+    position:relative;
+}
+
+#description {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    display:block;
+
+}
+
+input {
+    text-transform: uppercase;
+    color: #874b2d;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align:start;
+    
+    border-radius: 5px;
+    border: 2px solid #874b2d;
+    resize:none;
+
+}
+
+#text {
+    width: 40%;
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+#offset {
+
+}
+
+button {
+    background-color: rgb(145, 82, 11);
+    border: none;
+    color:rgb(231, 220, 203);
+    padding: 30px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: lowercase;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor:pointer    
+}
+
+#bt-crypt{
+    background-image: url(./img/cadeadofechado001.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bt-decrypt{
+    background-image: url(./img/cadeadoaberto001.png);
+    background-size: 25px;
+    background-position:center;
+    background-repeat: no-repeat;
 }
