@@ -1,52 +1,129 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    box-sizing:content-box;
+}
+
 body { 
-    background-image: url(./img/background.png);
+    background-image: url(./img/background03.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
 }
 
-h1 {
-    color: #874b2d;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: bolder;
-    font-size: 75px;
-    margin: 10%;
-    text-align: center;
-    align-items:center;
-    position:relative;
+header{
+    display: flexbox;
+    align-items: center;
+    margin: 2%;
+    position:static;
 }
 
-#description {
-    font-family: 'Courier New', Courier, monospace;
+#detective01{
+    float: left;
+}
+
+h1 {
+    color: #874b2d;
+    font-weight: bolder;
+    font-size: 85px;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 20%;
+    align-items:baseline;
+    position: relative static;
+    object-position: center;
+    text-shadow: black 10px;
+    background-color: burlywood;
+    
+}
+
+#site-description {
     font-weight: bold;
     color: black;
     font-size: 20px;
     display:block;
+    position: relative static;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 20%;
+    background-color: rgb(216, 202, 178);
+    align-content: center;
+}
 
+main{
+    display:inline-flexbox;
+    position:static;
+    margin: 5%;
+    margin-left: 15%;
+    margin-right: 15%;  
+}
+
+form{
+    display: inline-block;
+    margin: 1%;
+    align-content:center;
+    position:sticky;
+}
+
+#form-encrypt{ 
+    background-image:url(./img/letter01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 670px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+#form-decrypt{ 
+    background-image:url(./img/letter02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 670px;
+}
+
+#form-offset{
+    align-content: center;
 }
 
 input {
     text-transform: uppercase;
     color: #874b2d;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-align:start;
-    
-    border-radius: 5px;
+}
+
+#input-encrypt {
+    background: transparent;
+    outline: none;
+    position: relative;
+    margin-top: 40%;
+    margin-left: 15%;
+    width: 300px;
+    height: 400px;
+    resize: none;
+}
+
+#input-decrypt {
+    background: transparent;
+    outline: none;
+    position: relative;
+    margin-top: 40%;
+    margin-left: 1%;
+    width: 300px;
+    height: 400px;
+}
+
+#input-offset{
+    display: block;
+    position: relative;
+    color: #874b2d;
+    font-weight: bold;
     border: 2px solid #874b2d;
-    resize:none;
-
-}
-
-#text {
-    width: 40%;
-    height: 150px;
     padding: 10px;
-    box-sizing: border-box;
-
-}
-
-#offset {
+    width: 150px;
 
 }
 
@@ -57,12 +134,18 @@ button {
     padding: 30px 30px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
     text-transform: lowercase;
     font-weight: bold;
     margin: 4px 2px;
-    cursor:pointer    
+    cursor:pointer;
+    border-radius: 10px;
+}
+
+#key-offset{
+    position:relative;
+    display:block;
+    margin: 20%;
 }
 
 #bt-crypt{
@@ -77,4 +160,8 @@ button {
     background-size: 25px;
     background-position:center;
     background-repeat: no-repeat;
+}
+
+#detective02{
+    float: right;
 }
