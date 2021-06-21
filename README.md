@@ -4,8 +4,6 @@ A aplicação web (webApp) Crypto Detective, tem como alvo o público infanto-ju
 
 ## :card_index_dividers: Tabela de conteúdos
 
-* [Sobre](#Crypto)
-* [Tabela de Conteúdo](#Tabela)
 * [Layout](#Layout)
 * [Status do projeto](#Status)
 * [Tecnologias utilizadas](#Tecnologias)
