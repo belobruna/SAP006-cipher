@@ -1,0 +1,162 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    box-sizing:content-box; }
+
+body {
+    background-image: url(./img/background03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top; }
+
+header{
+    display: flexbox;
+    align-items: center;
+    margin: 2%;
+    position:static; }
+
+#detective01{
+    float: left; }
+
+h1 {
+    color: #874b2d;
+    font-weight: bolder;
+    font-size: 85px;
+    margin-top: 6%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 20%;
+    position: relative static;
+    object-position: center;
+    background-color: burlywood; }
+
+#site-description {
+    font-weight: bold;
+    color: black;
+    font-size: 21px;
+    display:block;
+    position: relative static;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 20%;
+    background-color: rgb(235, 220, 194);
+    border: solid 10px rgb(235, 220, 194);
+    align-content: center;
+    line-height: 1.5;}
+
+main{
+    display: flex;
+    position:static;
+    margin: 5%;
+    margin-left: 15%;
+    margin-right: 15%;  }
+
+form{
+    display: inline-block;
+    margin: 1%;
+    align-content:center;
+    position:sticky;
+    flex-direction: column;}
+
+#form-encrypt{
+    background-image:url(./img/letter01.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 500px;
+    height: 700px;
+    resize: none; }
+
+#form-decrypt{
+    background-image:url(./img/letter02.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 500px;
+    height: 700px;
+    resize:none; }
+
+#form-offset{
+    align-content: center;
+    width: 300px;
+    height: 300px;
+    margin: 5%; }
+
+input {
+    color: #874b2d;
+    font-weight: bold;
+    text-align:start;
+    font-size: 18px;}
+
+#input-encrypt {
+    background: transparent;
+    outline: none;
+    position: relative;
+    margin-top: 40%;
+    margin-left: 15%;
+    width: 280px;
+    height: 350px;
+    resize: none;
+    border: transparent;
+    font-size: 18px;
+    font-weight: bolder;}
+
+#input-decrypt {
+    background:transparent;
+    outline: none;
+    position: relative;
+    margin-top: 40%;
+    margin-left: 15%;
+    width: 280px;
+    height: 350px;
+    border: transparent;
+    font-size: 18px;
+    font-weight: bolder;}
+
+#input-offset{
+    display: block;
+    position: relative;
+    color: #874b2d;
+    font-weight: bold;
+    border: 2px solid #874b2d;
+    padding: 10px;
+    width: 200px;}
+
+button {
+    background-color: rgb(145, 82, 11);
+    border: none;
+    padding: 30px 30px;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor:pointer;
+    border-radius: 10px;}
+
+#key-offset{
+    align-items: center;
+    margin: 15% 15% 5% 15%;
+    display:block;
+    background-color: rgb(145, 82, 11);
+    border-radius: 10px;
+    border-color: rgb(145, 82, 11);
+    border: 10px;}
+
+#bt-encrypt{
+    background-image: url(./img/cadeadofechado001.png);
+    background-size: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    float: inline-end;
+    margin-left: 80%;}
+
+#bt-decrypt{
+    background-image: url(./img/cadeadoaberto001.png);
+    background-size: 35px;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    float: inline-end;
+    margin-right: 80%;}
+
+#detective02{
+    float: right;}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> CryptoDetective</title>
+  <link rel="shortcut icon" href="./img/icon.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+      <header>
+        <img id="detective01" src="img/detective01.png" width="350" alt="Female detective with a magnifying glass">
+        <h1> CRYPTO DETECTIVE </h1>
+        <p id="site-description"> Que tal escrever uma mensagem criptografada 
+          para os seus amigos? Nossos detetives, Ágata e Arthur, conhecem tudo sobre códigos e
+          vão te ajudar a se comunicar usando a Cifra de César, basta você escolher uma chave secreta 
+          para a sua mensagem. Ficou curioso para saber como funciona? Clique 
+          <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank">aqui</a> para aprender um 
+          pouco mais sobre essa cifra.
+          
+        </p>
+      </header>
+
+      <main>
+
+        <form id="form-encrypt">
+          <textarea id="input-encrypt" type="text" cols="30" rows="10" 
+          placeholder="Insira aqui a mensagem que você deseja criptografar..."></textarea>
+          <button id="bt-encrypt" type="submit"> </button>
+        </form>
+
+        <form id="form-offset"> 
+          <img id="key-offset" src="img/key02.png" width="80">
+          <input id="input-offset" type="number" placeholder="escolha a chave" max="33" min="0" >
+          
+        </form>
+
+        <form id="form-decrypt">
+          <textarea id="input-decrypt" type="text" cols="30" rows="10" 
+          placeholder="Insira aqui a mensagem que você deseja descriptografar..."></textarea>
+          <button id="bt-decrypt" type ="submit"></button>
+        </form>
+
+      </main>
+
+    <footer>
+      <img id="detective02" src="img/detective02.png" width="200" alt="Bearded detective holding a letter">
+    </footer>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
