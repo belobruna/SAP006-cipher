@@ -1,16 +1,17 @@
 # :female_detective: Crypto Detective :male_detective:
 
 A aplicação web (webApp) Crypto Detective, tem como alvo o público infanto-juvenil. Nela, esses usuários poderão ter um primeiro contato com o conceito de criptologia, através da cifra de césar. 
----
+
 ## :card_index_dividers: Tabela de conteúdos
 
-   * [Sobre](#Crypto)
-   * [Tabela de Conteúdo](#Tabela)
-   * [Layout](#Layout)
-   * [Status do projeto](#Status)
-   * [Tecnologias utilizadas](#Tecnologias)
-   * [Sobre a autora](#Sobre)
+* [Sobre](#Crypto)
+* [Tabela de Conteúdo](#Tabela)
+* [Layout](#Layout)
+* [Status do projeto](#Status)
+* [Tecnologias utilizadas](#Tecnologias)
+* [Sobre a autora](#Sobre)
 
+***
 ## :paintbrush: Layout
     
 Com o objetivo de chamar atenção do público alvo, ficou-se decidido explorar o interessante mundo dos detetives, apresentando aos usuários dois personagens: Ágata e Artur, detetives especialistas em codificar e decodificar mensagens. Todo o layout e paleta de cores da aplicação foi definido a partir da escolha das personagens.
@@ -22,18 +23,18 @@ Esboço do layout:
 
 ## :hammer_and_wrench: Status do projeto
 
-:construction_worker_woman: Em construção...: construction_worker_man:
+:construction_worker_woman: Em construção... :construction_worker_man:
 
 
-## :computer: Tenologias utilizadas
+## :computer: Tecnologias utilizadas
 
 - HTML 5
 - CSS3
 - JavaScript
 - Node.js
 
-## :copyright: Sobre a autora
+## :curly_haired_woman: Sobre a autora
 
-### Bruna Belo
-[Bruna Belo](https://github.com/belobruna)
-bruna.belo@gmail.com
+### Bruna Belo 
+* [Bruna Belo](https://github.com/belobruna)
+* bruna.belo@gmail.com
