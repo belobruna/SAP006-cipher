@@ -6,12 +6,9 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
-    <div id="root">
-
       <header>
         <img id="detective01" src="img/detective01.png" width="350" alt="Female datective with a magnifying glass">
-        <br> <br> <br> <h1> Crypto Message </h1>
+        <h1> CRYPTO DETECTIVE </h1>
         <p id="site-description"> Que tal escrever uma mensagem criptografada 
           para os seus amigos? <br> A gente te ajuda! Basta escolher uma chave 
             (número de 1 a 25), que a gente criptografa a mensagem para você! 
@@ -21,20 +18,18 @@
       <main>
 
         <form id="form-encrypt">
-          <input id="input-encrypt" type="text" value="" 
-            placeholder="Insira aqui a mensagem que você deseja criptografar...">
-          <button id=bt-crypt> </button>
+          <textarea id="input-encrypt" type="text" cols="30" rows="10" placeholder="Insira aqui a mensagem que você deseja criptografar..."></textarea>
+          <button id="bt-encrypt" type="submit"> </button>
         </form>
 
         <form id="form-offset"> 
-          <img id=key-offset src="img/key01.png" width="50">
+          <img id="key-offset" src="img/key02.png" width="80">
           <input id="input-offset" type="number" placeholder="escolha a chave" max="33" min="0" >
         </form>
 
         <form id="form-decrypt">
-          <button id=bt-decrypt> </button>
-          <input id="input-decrypt" type="text" value="" 
-            placeholder="Insira aqui a mensagem que você deseja descriptografar...">
+          <button id="bt-decrypt" type ="submit"></button>
+          <textarea id="input-decrypt" type="text" cols="30" rows="10" placeholder="Insira aqui a mensagem que você deseja descriptografar..."></textarea>
         </form>
 
       </main>
@@ -42,10 +37,6 @@
     <footer>
       <img id="detective02" src="img/detective02.png" width="200" alt="Bearded detective holding a letter">
     </footer>
-    </div>
     <script src="index.js" type="module"></script>
-
- 
-  
 </body>
 </html>
