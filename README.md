@@ -37,4 +37,8 @@ Esboço do layout:
 
 ### Bruna Belo 
 * [Bruna Belo](https://github.com/belobruna)
+<<<<<<< HEAD
 * bruna.belo@gmail.com
+=======
+* bruna.belo@gmail.com
+>>>>>>> 693bca56728cbe2af72410f460dc033c564babe4
